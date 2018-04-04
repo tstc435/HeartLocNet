@@ -27,7 +27,7 @@ predict each image in the directory of test using trained model
 '''
 if __name__ == '__main__':
     save_dir = os.path.join(os.getcwd(), 'saved_models')
-    model_name = 'keras_cifar10_trained_sigmoid_model.h5'
+    model_name = 'keras_xchest_trained_model.h5'
     model_path = os.path.join(save_dir, model_name)
     loaded_mode = load_model(model_path)
     #predict(self, x, batch_size=None, verbose=0, steps=None)
